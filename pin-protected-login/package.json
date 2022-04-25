@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "app",
+    "service"
+  ],
+  "scripts": {
+    "start:service": "yarn workspace service start",
+    "start:web": "yarn workspace app web",
+    "start:app": "yarn workspace app start",
+    "test:app": "yarn workspace app test"
+  }
+}
